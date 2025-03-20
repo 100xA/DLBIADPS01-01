@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Die Verwandlung</title>
+        <author>Franz Kafka</author>
+        <year>1915</year>
+    </book>
+    <book>
+        <title>Der Prozess</title>
+        <author>Franz Kafka</author>
+        <year>1925</year>
+    </book>
+    <book>
+        <title>Der Große Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+    </book>
+</library>
