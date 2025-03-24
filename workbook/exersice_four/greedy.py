@@ -1,5 +1,8 @@
+def sort_by_end_time(activity):
+    return activity[1]
+
 def greedy_activity_selection(activities):
-    sorted_activities = sorted(activities, key=lambda x: x[1])
+    sorted_activities = sorted(activities, key=sort_by_end_time)
     selected = []
     last_end_time = 0 
 

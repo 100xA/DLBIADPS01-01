@@ -2,8 +2,8 @@ from animal import Animal
 
 class Cat(Animal):
     
-    def __init__(self, name: str, alter: int, gewicht: float, mikrochip_id: str, favourite_toy: str):
-        super().__init__(name, alter, gewicht, mikrochip_id)
+    def __init__(self, name: str, age: int, weight: float, microchipID: int, favourite_toy: str):
+        super().__init__(name, age, weight, microchipID)
         self.favourite_toy = favourite_toy
         
     def meow(self):

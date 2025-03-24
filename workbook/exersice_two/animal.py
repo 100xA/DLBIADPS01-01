@@ -1,12 +1,12 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 
-class Animal:
+class Animal(ABC):
     
-    def __init__(self, name: str, alter: int, gewicht: float, microchipID: int):
+    def __init__(self, name: str, age: int, weight: float, microchipID: int):
         self.name = name
-        self.alter = alter
-        self.gewicht = gewicht
+        self.age = age
+        self.weight = weight
         self.microchipID = microchipID
     
     @abstractmethod

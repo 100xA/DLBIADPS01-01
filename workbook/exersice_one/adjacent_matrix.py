@@ -2,11 +2,11 @@ from collections import deque
 
 class AdjacentMatrix:
     def __init__(self, vertices):
-        self.vertices = vertices
-        self.matrix = [[0] * vertices for _ in range(vertices)]
-
+        self.vertices = vertices 
+        self.matrix = [[0] * vertices for _ in range(vertices)] 
+        
     def add_edge(self, u, v):
-        self.matrix[u][v] = 1
+        self.matrix[u][v] = 1 
     
     def remove_edge(self, u, v):
         self.matrix[u][v] = 0
